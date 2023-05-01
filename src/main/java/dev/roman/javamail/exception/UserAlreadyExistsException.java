@@ -1,0 +1,8 @@
+package dev.roman.javamail.exception;
+
+public class UserAlreadyExistsException extends RuntimeException {
+    public UserAlreadyExistsException(String message) {
+        super(message);
+    }
+}
+
